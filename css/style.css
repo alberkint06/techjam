@@ -5,7 +5,7 @@
 }
 
 html{
-    font-size: 62,5%;
+    font-size: 62.5%;
     font-family: 'Inter Var', sans-serif;
 }
 
@@ -15,26 +15,33 @@ body{
 }
 
 .header{
-   height: 6rem;
+   height: auto;
    padding: 0.5rem;
-   padding-left: 1.5rem;
-   padding-right: 1.5rem;
-   font-size: 2.4rem;
+   padding: 2.6rem 1.2rem;
+   font-size: 7rem;
    display: flex;
    align-items: center;
    justify-content: space-between;
+   text-rendering: optimizeLegibility;
+   margin: 0rem 23.3rem;
+   line-height: 4.4rem;
 }
 
 .websiteName{
     font-size: 3.2rem;
+    height: 4.7rem;
+    object-fit: cover;
 }
 :hover .websiteName{
     cursor: pointer;
 }
 
 .logoregion{
+    gap: 0.5rem;
     display: flex;
     align-items: center;
+    font-size: 2.8rem;
+    font-weight: bold;
 }
 
 .hyperlink{
@@ -45,23 +52,49 @@ body{
 .catagories{
     list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 2.2rem;
     padding-right: 3rem;
-}
-
-.catagories{
     text-decoration: none;
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     font-weight: 300;
+    letter-spacing: 0.1rem;
 }
 
 .login{
     color: white;
     background: #bf1313;
-    padding: 0.3rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    border-radius: 0.5rem;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    border-radius: 0.4rem;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: bold;
+    line-height: 1.6rem;
+    text-align: center;
+}
+
+.miniheader{
+    background: #f5f5f5;
+    display: flex;
+    list-style: none;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18);
+    padding: 1.8rem 12.5rem;
+    transition: padding 0.1s linear 0s;
+    overflow: hidden;
+    border-top: 1px solid #d1d5db;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.miniheader > li{
+    text-align: center;
+}
+
+.miniheader > li > a{
+    color: #252627;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    height: 1.7rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
 }
