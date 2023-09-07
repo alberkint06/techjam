@@ -6,19 +6,16 @@
 
 html{
     font-size: 62,5%;
-    font-family: sans-serif;
+    font-family: 'Inter Var', sans-serif;
 }
 
 body{
    font-size: 1rem;
    position: relative;
-   background: rgb(50, 50, 50);
 }
 
 .header{
-   background: rgb(30, 30, 30);
    height: 6rem;
-   color: white;
    padding: 0.5rem;
    padding-left: 1.5rem;
    padding-right: 1.5rem;
@@ -35,7 +32,36 @@ body{
     cursor: pointer;
 }
 
+.logoregion{
+    display: flex;
+    align-items: center;
+}
+
 .hyperlink{
     text-decoration: none;
+    color: black;
+}
+
+.catagories{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding-right: 3rem;
+}
+
+.catagories{
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.login{
     color: white;
+    background: #bf1313;
+    padding: 0.3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 700;
 }
